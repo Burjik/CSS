@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Форма для входа</title>
+<style>
+.white-box {
+    position: relative;
+    left: 30px;
+    right: 30px;    
+    background-color: #ffffff;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+</style>
+<div class="white-box">Добро пожаловать!
+    <label for="login"></label>
+    <input type="text" id="login" placeholder="Логин">
+</div>
+    </head>
+</html>
